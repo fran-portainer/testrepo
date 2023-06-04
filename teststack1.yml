@@ -2,4 +2,5 @@ version: '3'
 services:
   nginx:
     image: nginx
-    port: 30091:$port
+    ports: 
+    - 30091:$port
